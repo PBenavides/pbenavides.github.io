@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Python on PBenavides</title>
+    <link>https://pbenavides.github.io/tags/python/</link>
+    <description>Recent content in Python on PBenavides</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Apr 2020 11:15:58 -0400</lastBuildDate><atom:link href="https://pbenavides.github.io/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Experimentation Notebooks</title>
+      <link>https://pbenavides.github.io/post/chapter-5/</link>
+      <pubDate>Mon, 13 Apr 2020 11:15:58 -0400</pubDate>
+      
+      <guid>https://pbenavides.github.io/post/chapter-5/</guid>
+      <description>These are Proof of Concept Notebooks where I&amp;rsquo;m replicating some tutorial with my point of view or own data. I built this notebooks to keep a record of which use-cases I could make in the future and as personal note-taking of the topics that I&amp;rsquo;ve studied. Some of the topics I&amp;rsquo;m including in this notebooks are:
+  Data_visualization: A calendar plot about USDPEN prices.
+  FeatureEncoding Challenge: Kaggle competition about encoding techniques.</description>
+    </item>
+    
+    <item>
+      <title>FX Derivatives Portfolio Optimizer</title>
+      <link>https://pbenavides.github.io/post/chapter-3/</link>
+      <pubDate>Tue, 11 Apr 2017 11:13:32 -0400</pubDate>
+      
+      <guid>https://pbenavides.github.io/post/chapter-3/</guid>
+      <description>Poor Gringoire! the din of all the great double petards of the Saint-Jean, the discharge of twenty arquebuses on supports, the detonation of that famous serpentine of the Tower of Billy, which, during the siege of Paris, on Sunday, the twenty-sixth of September, 1465, killed seven Burgundians at one blow, the explosion of all the powder stored at the gate of the Temple, would have rent his ears less rudely at that solemn and dramatic moment, than these few words, which fell from the lips of the usher, “His eminence, Monseigneur the Cardinal de Bourbon.</description>
+    </item>
+    
+  </channel>
+</rss>
