@@ -36,7 +36,7 @@
 <meta itemprop="name" content="Automated Valuation Model - Lima">
 <meta itemprop="description" content="Machine learning model that uses local dataset to predict a fair transaction price for a property."><meta itemprop="datePublished" content="2021-04-09T10:58:08-04:00" />
 <meta itemprop="dateModified" content="2021-04-09T10:58:08-04:00" />
-<meta itemprop="wordCount" content="505">
+<meta itemprop="wordCount" content="751">
 <meta itemprop="keywords" content="Machine Learning,Web Scraping,Deployment,Backend Web Development," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Automated Valuation Model - Lima"/>
 <meta name="twitter:description" content="Machine learning model that uses local dataset to predict a fair transaction price for a property."/>
@@ -198,12 +198,41 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam commodo rhoncus nisi, ac condimentum odio rutrum sed. Morbi dapibus congue mollis. Cras ac mauris odio. In at lobortis neque. Morbi et orci lectus. Suspendisse mattis aliquet mollis. Nunc pretium, felis a consectetur consectetur, orci risus sagittis eros, a ullamcorper orci diam ac quam. Nam ultrices auctor turpis at posuere. Pellentesque nisi diam, vestibulum eget lobortis ac, fermentum at lectus.</p>
-<p>Suspendisse euismod ipsum bibendum nunc hendrerit posuere. Sed venenatis lacinia velit vitae hendrerit. Cras ut nisl nunc. Maecenas tempor mi ornare odio iaculis, ut pharetra lacus porta. Aliquam lacinia tortor vel risus vehicula, eget volutpat metus consectetur. Integer ac enim ac justo vulputate porttitor. In hendrerit pretium lorem sit amet vulputate. Nullam at nibh purus. Quisque bibendum ante at nisi iaculis venenatis. Ut aliquam sagittis dapibus. Ut purus magna, dignissim at ligula et, vulputate pulvinar risus. Cras tristique venenatis enim, quis condimentum justo accumsan eu. Phasellus vel nulla neque. Praesent non porta urna, eu elementum justo. Suspendisse ultrices lectus in elementum mattis. Curabitur justo libero, lacinia vel finibus eget, egestas ac dolor.</p>
-<p>Nam vel efficitur ligula. Duis accumsan fringilla varius. Integer non blandit nisl. Nulla facilisi. Nullam ac lorem congue, euismod ante sit amet, imperdiet nunc. Pellentesque luctus varius nisi ultricies efficitur. Etiam at facilisis elit. Quisque posuere dui vitae ullamcorper maximus. Etiam ornare lacinia pulvinar. Quisque eu eros id felis ultrices fermentum. Duis accumsan posuere magna, sit amet egestas est faucibus tristique.</p>
-<p>Nam ut suscipit enim. Donec vulputate gravida justo id suscipit. Aliquam eget fermentum dui. Maecenas porttitor lacus a porta cursus. Vestibulum molestie dapibus urna vitae consectetur. Aliquam in nisl ligula. Ut vitae sollicitudin tellus. Sed quis sem feugiat est tempor vehicula. Donec finibus ut metus at feugiat. Donec in felis eu lectus pulvinar rhoncus in sit amet risus. Cras id ullamcorper libero. Donec a ullamcorper ante. Praesent non euismod dolor, ut placerat velit.</p>
-<p>Cras sed felis et lectus lobortis viverra. Donec consectetur viverra lectus, a viverra eros porta a. Nunc eget metus et diam congue mollis vitae non mi. Vestibulum et sem dolor. Morbi eget iaculis mi. Nam ex tortor, commodo eu tortor at, ultricies consequat odio. Nunc malesuada nibh eu dui accumsan, non viverra purus hendrerit. Integer et condimentum metus. Nunc a sollicitudin dolor. Suspendisse id mattis odio. Fusce faucibus sit amet orci in gravida. Fusce erat ante, aliquam eu condimentum ac, volutpat et elit. Vestibulum justo neque, scelerisque sit amet porttitor ac, molestie ut diam.</p>
-<p>Aliquam imperdiet ut turpis non semper. Praesent tincidunt neque id orci volutpat porta. Vivamus condimentum purus non varius scelerisque. Proin quam quam, finibus quis dolor et, tempus vestibulum lacus. Aliquam quis aliquet libero. Duis facilisis nulla mi, at ornare nisl elementum vel. Curabitur vitae nisi luctus, tempus mauris ac, efficitur libero. Duis laoreet orci ullamcorper est laoreet, at ultricies justo consequat. Vestibulum blandit mi ut vulputate iaculis. Fusce dui nisl, porttitor accumsan diam congue, imperdiet eleifend enim. Pellentesque elementum magna massa, vitae volutpat turpis sodales et. Nam massa diam, varius ut ligula sed, commodo elementum sapien.</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h3 id="about-the-project">About the Project</h3>
+<p>This project started in 2019 when I was trying to practice my web-scraping and Machine learning skills. It was the first personal project that I had been involved in, and it even was a start-up project idea that couldn&rsquo;t be accomplished for many reasons. I learnt a lot from this and I dedicated a great amount of time to iterate over the ideas. Suddenly, it ended up being a <strong>Spatial Data Science project</strong> due to the advantage of the scraped data: geographically coordinates.</p>
+<p><img src="https://www.matrixiangroup.com/wp-content/uploads/2021/06/wheel-windmill.svg" alt="AVM"></p>
+<p>This article will describe the analysis process of the last version of the ML model (the one with Spatial Features) and the things I learnt while building and using these tools. I’ll focus just only on the Data Science aspect, context and how this project could add value to society.</p>
+<h3 id="context">CONTEXT:</h3>
+<p>Lima is a messy place, we have many special (and spatial) features around the city, it&rsquo;s a highly crowded, unstructured and multicultural place. Literature could split Lima in 4 categories, all of that dealing with the amount of income one has to get for living in each place. Also, bureaucracy is one of the main problems in this city, in this context we could talk about the Valuation Process. When someone wants to sell his house it has to hire a professional appraiser which makes a market analysis and the cost could rise to almost 1500 PEN (~400 USD) where the process lasts almost 1-2 weeks if you want a fair valuation. Why not automate this process? There are few tech tools for this in Perú.</p>
+<h3 id="who-needs-this-tool">Who needs this tool?</h3>
+<p>Property Owners: Those who want to value their assets in order to make a financial decision.
+House Buyers: Families and Corporations that want to be sure they will pay a fair price for the property.
+Investors: That wants to spot opportunities to buy and sell properties in the city.</p>
+<h3 id="whats-the-main-problem-this-tool-solves">What’s the main problem this tool solves?</h3>
+<p>The main advantage of this tool is to quickly evaluate the square meter price for a House in a specific Zone. This reduces the cost and time for regular valuation methods.</p>
+<h4 id="what-ended-up-being">What ended up being:</h4>
+<p>The GitHub repository is <a href="https://github.com/PBenavides/House_pricing_Lima"><strong>here</strong></a>
+The project is based on data from 2020 where we have 7762 samples at the beginning. After the data cleaning we got almost 4000 samples to work considering the following:</p>
+<ul>
+<li>We are only working with Lima Metropolitan Area Data.</li>
+<li>We eliminate duplicates (there is many duplicate announces in the webpage)</li>
+<li>We eliminate outliers that are not actually houses but country-clubs, hospitals, hotels, etc.</li>
+<li>We encountered that there are certain districts where the coordinates are not well specified.</li>
+</ul>
+<p>With these 4000 samples we also had some Exploratory Data Analysis which youe can see in <a href="https://github.com/PBenavides/Automated-Valuation-Model-Lima/blob/master/notebooks/Experiments/Spatial%20Autocorrelations.ipynb">This Notebook</a>. There are also many visualizations, as choropleths. The following is a small preview of what you can encounter in the notebook:</p>
+<p><img src="https://i.ibb.co/4Rvm7p5/Constucted-area-choropleth.jpg" alt="Choropleth - PBenavides"></p>
+<h2 id="exploratory-spatial-analysis">Exploratory Spatial Analysis:</h2>
+<p>There are many things to consider when you change the approach into a spatial one, one of these are the relationships that your samples could have related to the space. I found it useful to follow these two tutorials which were an introductory course of Spatial Data Science (I &amp; II). You could take a look of the notebook itself where is all specify, but in order to be accurate we could take the insight into these bullets points:</p>
+<p>Moran’s test says to us that our data contains a relationship between our target variable and the space.
+The relationship mentioned above it’s not strong but exists. Meaning the Spatial Features could add some value to the model.</p>
+<p><img src="https://i.ibb.co/8xSVG5T/moran-plot.jpg" alt="Moran Test - PBenavides"></p>
+<p>Local Spatial Autocorrelation test validates the well-known hypothesis that Lima is a centric city since the clusters are spread out around the center of the city.</p>
+<h3 id="results">Results</h3>
+<p>You can follow a detailed explanation about the Machine Learning Model Performance in <a href="https://github.com/PBenavides/Automated-Valuation-Model-Lima/blob/master/notebooks/2020_Notebook04_Model_Selection.ipynb">this Notebook</a> having all the nuances involved along the iterations. The model seems robust but the first gap to fill is the outliers and the lack of sufficient data. We can see that the best models have a normal distribution of errors and R-squared metric of 0.5 in average.</p>
+<p><img src="https://i.ibb.co/cLTthcP/residuals.jpg" alt="Residuals"></p>
+<h2 id="to-production">To Production</h2>
+<p>Due to the extensive analysis, making the pipeline had become a difficult but not impossible task. Spatial Features are really hard to make to pipeline! This is an extensive project and I have to fix many things until going to production. Nevertheless, I have a nice structure of how could this app is going to be deployed in the following weeks.</p>
+<p><img src="https://i.ibb.co/cCGM988/Prod-architecture.jpg" alt="MLOps - PBenavides"></p>
 <ul class="pa0">
   
    <li class="list">
