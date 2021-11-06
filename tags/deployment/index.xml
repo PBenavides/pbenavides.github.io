@@ -9,10 +9,10 @@
     <lastBuildDate>Fri, 09 Apr 2021 10:58:08 -0400</lastBuildDate><atom:link href="https://pbenavides.github.io/tags/deployment/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automated Valuation Model - Lima</title>
-      <link>https://pbenavides.github.io/post/chapter-1/</link>
+      <link>https://pbenavides.github.io/post/avm-lima/</link>
       <pubDate>Fri, 09 Apr 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://pbenavides.github.io/post/chapter-1/</guid>
+      <guid>https://pbenavides.github.io/post/avm-lima/</guid>
       <description>About the Project This project started in 2019 when I was trying to practice my web-scraping and Machine learning skills. It was the first personal project that I had been involved in, and it even was a start-up project idea that couldn&amp;rsquo;t be accomplished for many reasons. I learnt a lot from this and I dedicated a great amount of time to iterate over the ideas. Suddenly, it ended up being a Spatial Data Science project due to the advantage of the scraped data: geographically coordinates.</description>
     </item>
     

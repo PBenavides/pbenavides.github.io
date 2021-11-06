@@ -9,19 +9,19 @@
     <lastBuildDate>Tue, 02 Mar 2021 12:00:00 -0500</lastBuildDate><atom:link href="https://pbenavides.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automated Valuation Model - Lima</title>
-      <link>https://pbenavides.github.io/post/chapter-1/</link>
+      <link>https://pbenavides.github.io/post/avm-lima/</link>
       <pubDate>Fri, 09 Apr 2021 10:58:08 -0400</pubDate>
       
-      <guid>https://pbenavides.github.io/post/chapter-1/</guid>
+      <guid>https://pbenavides.github.io/post/avm-lima/</guid>
       <description>About the Project This project started in 2019 when I was trying to practice my web-scraping and Machine learning skills. It was the first personal project that I had been involved in, and it even was a start-up project idea that couldn&amp;rsquo;t be accomplished for many reasons. I learnt a lot from this and I dedicated a great amount of time to iterate over the ideas. Suddenly, it ended up being a Spatial Data Science project due to the advantage of the scraped data: geographically coordinates.</description>
     </item>
     
     <item>
       <title>Experimentation Notebooks</title>
-      <link>https://pbenavides.github.io/post/chapter-5/</link>
+      <link>https://pbenavides.github.io/post/exp-ntbks/</link>
       <pubDate>Mon, 13 Apr 2020 11:15:58 -0400</pubDate>
       
-      <guid>https://pbenavides.github.io/post/chapter-5/</guid>
+      <guid>https://pbenavides.github.io/post/exp-ntbks/</guid>
       <description>These are Proof of Concept Notebooks where I&amp;rsquo;m replicating some tutorials or articles with my point of view or own data. I built this notebooks to keep a record of which use-cases I could make in the future and as personal note-taking of the topics that I&amp;rsquo;ve studied. Some of the topics I&amp;rsquo;m including in this notebooks are:
   Data_visualization: A calendar plot about USDPEN prices.
   FeatureEncoding Challenge: Kaggle competition about encoding techniques.</description>
@@ -60,8 +60,7 @@
       <pubDate>Mon, 10 Apr 2017 11:00:59 -0400</pubDate>
       
       <guid>https://pbenavides.github.io/post/chapter-2/</guid>
-      <description>Nevertheless, as be harangued them, the satisfaction and admiration unanimously excited by his costume were dissipated by his words; and when he reached that untoward conclusion: “As soon as his illustrious eminence, the cardinal, arrives, we will begin,” his voice was drowned in a thunder of hooting.
-“Begin instantly! The mystery! the mystery immediately!” shrieked the people. And above all the voices, that of Johannes de Molendino was audible, piercing the uproar like the fife’s derisive serenade: “Commence instantly!</description>
+      <description></description>
     </item>
     
   </channel>
