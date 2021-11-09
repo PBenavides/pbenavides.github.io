@@ -6,11 +6,11 @@
     <description>Recent content in Reinforcement Learning on PBenavides</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 13 Apr 2020 11:15:58 -0400</lastBuildDate><atom:link href="https://pbenavides.github.io/tags/reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 13 May 2021 11:15:58 -0400</lastBuildDate><atom:link href="https://pbenavides.github.io/tags/reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Experimentation Notebooks</title>
       <link>https://pbenavides.github.io/post/exp-ntbks/</link>
-      <pubDate>Mon, 13 Apr 2020 11:15:58 -0400</pubDate>
+      <pubDate>Thu, 13 May 2021 11:15:58 -0400</pubDate>
       
       <guid>https://pbenavides.github.io/post/exp-ntbks/</guid>
       <description>These are Proof of Concept Notebooks where I&amp;rsquo;m replicating some tutorials or articles with my point of view or own data. I built this notebooks to keep a record of which use-cases I could make in the future and as personal note-taking of the topics that I&amp;rsquo;ve studied. Some of the topics I&amp;rsquo;m including in this notebooks are:
@@ -21,7 +21,7 @@
     <item>
       <title>Data Science Introductory Course</title>
       <link>https://pbenavides.github.io/post/chapter-4/</link>
-      <pubDate>Wed, 12 Apr 2017 11:14:48 -0400</pubDate>
+      <pubDate>Mon, 12 Apr 2021 11:14:48 -0400</pubDate>
       
       <guid>https://pbenavides.github.io/post/chapter-4/</guid>
       <description></description>

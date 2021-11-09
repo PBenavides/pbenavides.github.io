@@ -6,11 +6,11 @@
     <description>Recent content in Machine Learning on PBenavides</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 09 Apr 2021 10:58:08 -0400</lastBuildDate><atom:link href="https://pbenavides.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 09 Jun 2021 10:58:08 -0400</lastBuildDate><atom:link href="https://pbenavides.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Automated Valuation Model - Lima</title>
       <link>https://pbenavides.github.io/post/avm-lima/</link>
-      <pubDate>Fri, 09 Apr 2021 10:58:08 -0400</pubDate>
+      <pubDate>Wed, 09 Jun 2021 10:58:08 -0400</pubDate>
       
       <guid>https://pbenavides.github.io/post/avm-lima/</guid>
       <description>About the Project This project started in 2019 when I was trying to practice my web-scraping and Machine learning skills. It was the first personal project that I had been involved in, and it even was a start-up project idea that couldn&amp;rsquo;t be accomplished for many reasons. I learnt a lot from this and I dedicated a great amount of time to iterate over the ideas. Suddenly, it ended up being a Spatial Data Science project due to the advantage of the scraped data: geographically coordinates.</description>
@@ -19,7 +19,7 @@
     <item>
       <title>Experimentation Notebooks</title>
       <link>https://pbenavides.github.io/post/exp-ntbks/</link>
-      <pubDate>Mon, 13 Apr 2020 11:15:58 -0400</pubDate>
+      <pubDate>Thu, 13 May 2021 11:15:58 -0400</pubDate>
       
       <guid>https://pbenavides.github.io/post/exp-ntbks/</guid>
       <description>These are Proof of Concept Notebooks where I&amp;rsquo;m replicating some tutorials or articles with my point of view or own data. I built this notebooks to keep a record of which use-cases I could make in the future and as personal note-taking of the topics that I&amp;rsquo;ve studied. Some of the topics I&amp;rsquo;m including in this notebooks are:
@@ -30,7 +30,7 @@
     <item>
       <title>Data Science Introductory Course</title>
       <link>https://pbenavides.github.io/post/chapter-4/</link>
-      <pubDate>Wed, 12 Apr 2017 11:14:48 -0400</pubDate>
+      <pubDate>Mon, 12 Apr 2021 11:14:48 -0400</pubDate>
       
       <guid>https://pbenavides.github.io/post/chapter-4/</guid>
       <description></description>
@@ -39,7 +39,7 @@
     <item>
       <title>Lima - Real Estate Forecasting</title>
       <link>https://pbenavides.github.io/post/chapter-2/</link>
-      <pubDate>Mon, 10 Apr 2017 11:00:59 -0400</pubDate>
+      <pubDate>Sat, 10 Apr 2021 11:00:59 -0400</pubDate>
       
       <guid>https://pbenavides.github.io/post/chapter-2/</guid>
       <description></description>
