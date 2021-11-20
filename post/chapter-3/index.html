@@ -36,7 +36,7 @@
 <meta itemprop="name" content="FX Derivatives Portfolio Optimizer">
 <meta itemprop="description" content="An optimization exercise for vanilla FX derivatives in USD-PEN case"><meta itemprop="datePublished" content="2021-04-11T11:13:32-04:00" />
 <meta itemprop="dateModified" content="2021-04-11T11:13:32-04:00" />
-<meta itemprop="wordCount" content="3">
+<meta itemprop="wordCount" content="168">
 <meta itemprop="keywords" content="Finance,Python,Backend Web Development," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="FX Derivatives Portfolio Optimizer"/>
 <meta name="twitter:description" content="An optimization exercise for vanilla FX derivatives in USD-PEN case"/>
@@ -186,7 +186,17 @@
       
       
     </header>
-    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Description in Progress</p>
+    <div class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h3 id="in-order-to-compare-the-two-instruments-it-is-taken-into-account-that">In order to compare the two instruments, it is taken into account that:</h3>
+<p>The buyer of the call or forward option may gain or lose depending on the difference between the $Spot_{T}$ and the $Strike(K)$ at the maturity date **(T)** of the contract.</p>
+<p>In order to compare these gains or losses, understanding that the contract is for the purchase of USD/PEN, it is used:</p>
+<p>$$(1 - \frac{(TC_{fwd})}{(Spot_{T})})$$</p>
+<p>For example, if there is a fwd at 3M, with a $TC_{fwd}$ of 3.5 and the spot after 3M is $Spot_{T}$.</p>
+<p>If the Strike is greater than the $Spot_{T}$ and the option is not executed:</p>
+<p>$$  (1 - \frac{Spot_{T}}{Strike}) - Prima $$</p>
+<p>If the $Spot_{T}$ is greater than the Strike and the option is executed, then the $Spot_{T}$ is greater than the Strike.</p>
+<p>$$ (1 - \frac{Strike}{Spot_{T}}) - Prima$$</p>
+<p>Sin cobertura, se asume que la empresa está asumiendo un costo el tipo de cambio spot a tres meses y no comprarlos en el día del contrato (hoy). **</p>
+<p>$$ (1- \frac{Spot_{T}}{Spot_{0}})$$</p>
 <ul class="pa0">
   
    <li class="list">

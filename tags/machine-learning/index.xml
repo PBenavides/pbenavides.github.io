@@ -6,7 +6,20 @@
     <description>Recent content in Machine Learning on PBenavides</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Jun 2021 10:58:08 -0400</lastBuildDate><atom:link href="https://pbenavides.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Aug 2021 11:00:59 -0400</lastBuildDate><atom:link href="https://pbenavides.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Credit Fraud API</title>
+      <link>https://pbenavides.github.io/post/credit-fraud-api/</link>
+      <pubDate>Tue, 10 Aug 2021 11:00:59 -0400</pubDate>
+      
+      <guid>https://pbenavides.github.io/post/credit-fraud-api/</guid>
+      <description>Credit Fraud Analysis. This was made based on this Kaggle dataset of fraud-transactions. The dataset is well known but this approach is considering the model as a service to predict fast and accurate fraud transactions. I personally think a deploy approach is nearest to the real-world application rather than just optimizing the metrics.
+The entire process could be explained as the following:
+From Notebooks:
+1.- Split dataset Notebook
+  Since Time was measured with respect to the first transaction, it has to be transformed with a cyclical method to have the same measure in a production environment.</description>
+    </item>
+    
     <item>
       <title>Automated Valuation Model - Lima</title>
       <link>https://pbenavides.github.io/post/avm-lima/</link>
@@ -38,10 +51,10 @@
     
     <item>
       <title>Lima - Real Estate Forecasting</title>
-      <link>https://pbenavides.github.io/post/chapter-2/</link>
+      <link>https://pbenavides.github.io/post/chapter-5/</link>
       <pubDate>Sat, 10 Apr 2021 11:00:59 -0400</pubDate>
       
-      <guid>https://pbenavides.github.io/post/chapter-2/</guid>
+      <guid>https://pbenavides.github.io/post/chapter-5/</guid>
       <description></description>
     </item>
     

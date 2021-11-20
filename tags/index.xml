@@ -6,7 +6,52 @@
     <description>Recent content in Tags on PBenavides</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 Jun 2021 10:58:08 -0400</lastBuildDate><atom:link href="https://pbenavides.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Aug 2021 11:00:59 -0400</lastBuildDate><atom:link href="https://pbenavides.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>API</title>
+      <link>https://pbenavides.github.io/tags/api/</link>
+      <pubDate>Tue, 10 Aug 2021 11:00:59 -0400</pubDate>
+      
+      <guid>https://pbenavides.github.io/tags/api/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Credit fraud</title>
+      <link>https://pbenavides.github.io/tags/credit-fraud/</link>
+      <pubDate>Tue, 10 Aug 2021 11:00:59 -0400</pubDate>
+      
+      <guid>https://pbenavides.github.io/tags/credit-fraud/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Machine Learning</title>
+      <link>https://pbenavides.github.io/tags/machine-learning/</link>
+      <pubDate>Tue, 10 Aug 2021 11:00:59 -0400</pubDate>
+      
+      <guid>https://pbenavides.github.io/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modelling</title>
+      <link>https://pbenavides.github.io/tags/modelling/</link>
+      <pubDate>Tue, 10 Aug 2021 11:00:59 -0400</pubDate>
+      
+      <guid>https://pbenavides.github.io/tags/modelling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SMOTE</title>
+      <link>https://pbenavides.github.io/tags/smote/</link>
+      <pubDate>Tue, 10 Aug 2021 11:00:59 -0400</pubDate>
+      
+      <guid>https://pbenavides.github.io/tags/smote/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Backend Web Development</title>
       <link>https://pbenavides.github.io/tags/backend-web-development/</link>
@@ -22,15 +67,6 @@
       <pubDate>Wed, 09 Jun 2021 10:58:08 -0400</pubDate>
       
       <guid>https://pbenavides.github.io/tags/deployment/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Machine Learning</title>
-      <link>https://pbenavides.github.io/tags/machine-learning/</link>
-      <pubDate>Wed, 09 Jun 2021 10:58:08 -0400</pubDate>
-      
-      <guid>https://pbenavides.github.io/tags/machine-learning/</guid>
       <description></description>
     </item>
     
