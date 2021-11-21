@@ -30,6 +30,17 @@ From Notebooks:
     </item>
     
     <item>
+      <title>Exploratory Spatial Data Analysis</title>
+      <link>https://pbenavides.github.io/post/esda/</link>
+      <pubDate>Fri, 14 May 2021 11:00:59 -0400</pubDate>
+      
+      <guid>https://pbenavides.github.io/post/esda/</guid>
+      <description>About the project This project has been in my repository for a while, being my first personal project and involving from web-scraping to data modeling. Recently, I discover Spatial Analysis and I would like to share my approach and how can we create features into the data that has coordinates. I could summarized my discoveries as following.
+1.- The power of Spatial Data visualization.
+2.- Having statistical test is useful to not waste time.</description>
+    </item>
+    
+    <item>
       <title>Experimentation Notebooks</title>
       <link>https://pbenavides.github.io/post/exp-ntbks/</link>
       <pubDate>Thu, 13 May 2021 11:15:58 -0400</pubDate>
@@ -55,18 +66,6 @@ From Notebooks:
       <pubDate>Sun, 11 Apr 2021 11:13:32 -0400</pubDate>
       
       <guid>https://pbenavides.github.io/post/chapter-3/</guid>
-      <description>In order to compare the two instruments, it is taken into account that: The buyer of the call or forward option may gain or lose depending on the difference between the $Spot_{T}$ and the $Strike(K)$ at the maturity date **(T)** of the contract.
-In order to compare these gains or losses, understanding that the contract is for the purchase of USD/PEN, it is used:
-$$(1 - \frac{(TC_{fwd})}{(Spot_{T})})$$
-For example, if there is a fwd at 3M, with a $TC_{fwd}$ of 3.</description>
-    </item>
-    
-    <item>
-      <title>Lima - Real Estate Forecasting</title>
-      <link>https://pbenavides.github.io/post/chapter-5/</link>
-      <pubDate>Sat, 10 Apr 2021 11:00:59 -0400</pubDate>
-      
-      <guid>https://pbenavides.github.io/post/chapter-5/</guid>
       <description></description>
     </item>
     
